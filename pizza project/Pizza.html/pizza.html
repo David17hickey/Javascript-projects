@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Menu</title>
+</head>
+<body>
+    <h1>Pizza Menu</h1>
+    
+    <img src="image1.jpg" alt="Pizza Image" style="width: 100%; max-width: 600px; display: block; margin: 0 auto;">
+    
+    <form action="/submit-pizza-selection" method="post">
+        <section>
+            <h2>Classic Pizzas</h2>
+            <ul>
+                <li>
+                    <label>
+                        <input type="checkbox" name="pizza" value="Margherita">
+                        <strong>Margherita</strong> - Tomato, mozzarella, fresh basil
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="pizza" value="Pepperoni">
+                        <strong>Pepperoni</strong> - Tomato, mozzarella, pepperoni slices
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="pizza" value="Veggie Delight">
+                        <strong>Veggie Delight</strong> - Tomato, mozzarella, bell peppers, olives, mushrooms, onions
+                    </label>
+                </li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Specialty Pizzas</h2>
+            <ul>
+                <li>
+                    <label>
+                        <input type="checkbox" name="pizza" value="BBQ Chicken">
+                        <strong>BBQ Chicken</strong> - BBQ sauce, mozzarella, grilled chicken, onions, cilantro
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="pizza" value="Meat Lovers">
+                        <strong>Meat Lovers</strong> - Tomato, mozzarella, pepperoni, sausage, ham, bacon
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="pizza" value="Hawaiian">
+                        <strong>Hawaiian</strong> - Tomato, mozzarella, ham, pineapple
+                    </label>
+                </li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Build Your Own Pizza</h2>
+            <p>Choose your base, sauce, cheese, and toppings to create your perfect pizza!</p>
+            <label>
+                <input type="checkbox" name="pizza" value="Build Your Own">
+                <strong>Build Your Own Pizza</strong>
+            </label>
+        </section>
+        
+        <button type="submit">Submit Your Order</button>
+    </form>
+</body>
+</html>
+
